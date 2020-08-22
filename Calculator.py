@@ -27,7 +27,7 @@ def delet():
 
 window=Tk()
 window.title("Calculator")
-window.iconbitmap(r'C:\Users\dmine\Desktop\Programs\Calculator.ico')
+window.iconbitmap(r'python\Calculator.ico')
 operator=""
 screen_entry=StringVar()
 #grafical

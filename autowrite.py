@@ -6,7 +6,7 @@ import time
 
 window = Tk()
 window.title("Auto print")
-window.geometry("300x300+650+250")
+window.geometry("300x150+650+250")
 
 
 
@@ -14,17 +14,17 @@ window.geometry("300x300+650+250")
 
 
 #firt entery
-la=ttk.Label(window, text="Enter your text:").grid(row=0, column=0, padx=5, pady=5)
+la=ttk.Label(window, text="Enter your text:", justify= LEFT).grid(row=0, column=0, padx=5, pady=5)
 e1=ttk.Entry(window)
 e1.grid(row=0,column=1)
 
 #2nd entry
-lb=ttk.Label(window, text="Enter number of time:").grid(row=2, column=0, padx=5, pady=5)
+lb=ttk.Label(window, text="Enter number of time:", justify= LEFT).grid(row=2, column=0, padx=5, pady=5)
 e2=ttk.Entry(window)
 e2.grid(row=2,column=1)
 
 #3rd entry
-lc=ttk.Label(window, text="Enter time (S):").grid(row=3, column=0, padx=5, pady=5)
+lc=ttk.Label(window, text="Enter time between msg:", justify= LEFT).grid(row=3, column=0, padx=5, pady=5)
 e3=ttk.Entry(window)
 e3.grid(row=3,column=1)
 def submit():
